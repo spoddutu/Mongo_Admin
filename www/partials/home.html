@@ -1,0 +1,8 @@
+<div class="container-fluid">
+	<ul class="nav nav-pills">
+	  <li role="presentation" ng-class="{active: tk.tab === 1}" ng-click="tk.tab=1"><a ui-sref="home.friends">Freinds</a></li>
+	  <li role="presentation" ng-class="{active: tk.tab === 2}" ng-click="tk.tab=2"><a ui-sref="home.group">Groups</a></li>
+	  <li role="presentation" ng-class="{active: tk.tab === 3}" ng-click="tk.tab=3"><a ui-sref="home.activity">Activity <span class="badge">5</span></a></li>
+	</ul>	
+</div>
+<ui-view></ui-view>

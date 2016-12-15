@@ -1,0 +1,13 @@
+<div class="container-fluid" ng-controller="groupsCtrl as grp">
+	<div class="header">
+		<p> Total Balance </p>
+	</div>
+	<div class="content">
+		<ul ng-if="grp.groups.length > 0">
+			<li ng-repeat="group in grp.get()">{{group.name}}</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<button class="btn btn-primary" ng-click="grp.new()"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add a New Group</button>
+	</div>
+</div>

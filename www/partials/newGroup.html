@@ -1,0 +1,28 @@
+<div class="container-fluid">
+	<form role="form" ng-submit="grp.add(grp.group)">
+	    <div class="form-group">
+	      <label for="groupname">Group name</label>
+	      <input type="text" class="form-control" placeholder="Enter a group name" ng-model="grp.group.name">
+	    </div>
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="groupType" ng-model="grp.group.type" value="apartment" checked>
+		    Apartment
+		  </label>
+		</div>
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="groupType" ng-model="grp.group.type" value="trip">
+		    Trip
+		  </label>
+		</div>
+		<div class="radio">
+		  <label>
+		    <input type="radio" name="groupType" ng-model="grp.group.type" value="other">
+		    Other
+		  </label>
+		</div>
+		<button type="button" class="btn btn-default" ng-click="grp.cancel()">cancel</button>
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>

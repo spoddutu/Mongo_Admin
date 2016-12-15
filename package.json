@@ -1,0 +1,29 @@
+{
+  "name": "tracker",
+  "version": "0.0.1",
+  "description": "This application is used manage expenditures in a wise way",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoddutu/My-Website.git"
+  },
+  "keywords": [
+    "splitwise"
+  ],
+  "author": "Thinksters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoddutu/My-Website/issues"
+  },
+  "homepage": "https://github.com/spoddutu/My-Website#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2"
+  },
+  "dependencies": {}
+}
